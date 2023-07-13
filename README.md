@@ -4,6 +4,7 @@ prompted to enter one or more search queries, separated by commas. These queries
 
 example:
 Enter the search queries (separated by commas): e****@email.com
+
 Matches found in file: email_list.txt
 email@email.cmm
 
