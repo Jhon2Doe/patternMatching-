@@ -5,7 +5,7 @@ prompted to enter one or more search queries, separated by commas. These queries
 example:
 Enter the search queries (separated by commas): e****@email.com
 
-Matches found in file: email_list.txt
+Matches found in file: /home/Desktop/email_list.txt
 email@email.cmm
 
 The purpose of this code is to assist users in searching for specific email address patterns within multiple text files conveniently. It can be used, for example, to quickly find email addresses that match specific criteria or patterns within a collection of files.
