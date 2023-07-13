@@ -3,6 +3,8 @@ import os
 
 # ANSI escape sequence for red color
 RED_COLOR = "\033[91m"
+# ANSI escape sequence for yellow color
+YELLOW_COLOR = "\033[93m"
 # ANSI escape sequence to reset color
 RESET_COLOR = "\033[0m"
 
@@ -42,4 +44,4 @@ for query in queries_list:
 
     # Print "No matches found" if no matches were found for the current query
     if not matches_found:
-        print(f"No matches found for query: {query}")
+        print(f"{YELLOW_COLOR}No matches found for query: {query}{RESET_COLOR}")
